@@ -1,9 +1,9 @@
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><link type="text/css" rel="stylesheet" href="http://eelst.cs.unibo.it/apps/LODE/owl.css"><link type="text/css" rel="stylesheet" href="http://eelst.cs.unibo.it/apps/LODE/Primer.css"><link type="text/css" rel="stylesheet" href="http://eelst.cs.unibo.it/apps/LODE/rec.css"><link type="text/css" rel="stylesheet" href="http://eelst.cs.unibo.it/apps/LODE/extra.css"><link href="http://eelst.cs.unibo.it/apps/LODE/favicon.ico" rel="shortcut icon"><script src="http://eelst.cs.unibo.it/apps/LODE/jquery.js"></script><script src="http://eelst.cs.unibo.it/apps/LODE/jquery.scrollTo.js"></script><script src="/static/js/marked.min.js"></script><script>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><link type="text/css" rel="stylesheet" href="owl.css"><link type="text/css" rel="stylesheet" href="Primer.css"><link type="text/css" rel="stylesheet" href="rec.css"><link type="text/css" rel="stylesheet" href="extra.css"><link href="favicon.ico" rel="shortcut icon"><script src="jquery.js"></script><script src="jquery.scrollTo.js"></script><script src="marked.min.js"></script><script>
                 $(document).ready(
                     function () {
                     	jQuery(".markdown").each(function(el){
 							jQuery(this).after(marked(jQuery(this).text())).remove()});
-                        var list = $('a[name="https://raw.githubusercontent.com/mohdnajib1985/FishOntology/master/FishOntology.owl"]');
+                        var list = $('a[name="https://raw.githubusercontent.com/mohdnajib1985/FOWebPage/master/FishOntology.owl"]');
                         if (list.size() != 0) {
                         	var element = list.first();
                         	$.scrollTo(element);
